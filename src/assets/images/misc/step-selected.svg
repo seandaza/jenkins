@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1</title>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solicitar-préstamo-2" transform="translate(-394.000000, -167.000000)">
+            <g id="Group-4" transform="translate(369.000000, 167.000000)">
+                <g id="Indicator" transform="translate(24.650000, 0.000000)">
+                    <g id="1" transform="translate(0.350000, 0.000000)">
+                        <path d="M8.75,0.35 C11.0694484,0.35 13.1693193,1.2903878 14.6893929,2.81046138 C16.2096646,4.33073308 17.15,6.43084841 17.15,8.75 C17.15,11.0700484 16.2099357,13.1699333 14.6900073,14.6898618 C13.1698808,16.2099882 11.0697516,17.15 8.75,17.15 C6.43024841,17.15 4.3301192,16.2099882 2.80999274,14.6898618 C1.29006432,13.1699333 0.35,11.0700484 0.35,8.75 C0.35,6.43084841 1.2903354,4.33073308 2.81060711,2.81046138 C4.33068068,1.2903878 6.43055163,0.35 8.75,0.35 Z" id="Oval" stroke="#151F2E" stroke-width="0.7" fill="#151F2E"></path>
+                        <circle id="Oval" fill="#FFFFFF" cx="8.75" cy="8.75" r="1.75"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

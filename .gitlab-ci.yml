@@ -1,0 +1,31 @@
+stages:
+  - deploy-dev
+  - deploy-pro
+
+image: node:latest
+
+deploy-dev:
+  stage: deploy-dev
+  tags:
+    - keo-runner
+  script:
+    - cp $ENV_DEVELOPMENT .env.production.local
+    - npm install
+    - npm run build
+    - firebase -P dev target:apply hosting dev_target billpocket
+    - firebase deploy -P dev --only hosting:dev_target --token $FIREBASE_TOKEN
+  only:
+    - dev
+
+deploy-pro:
+  stage: deploy-pro
+  tags:
+    - keo-runner
+  script:
+    - cp $ENV_PRODUCTION .env.production.local
+    - npm install
+    - npm run build
+    - firebase -P pro target:apply hosting pro_target billpocket-pro
+    - firebase deploy -P pro --only hosting:pro_target --token $FIREBASE_TOKEN
+  only:
+    - master

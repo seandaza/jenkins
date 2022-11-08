@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "dev": "gc-k-gbl-portals-dev",
+    "pro": "gc-k-gbl-portals-pro"
+  },
+  "targets": {
+    "gc-k-gbl-portals-dev": {
+      "hosting": {
+        "dev_target": ["billpocket"]
+      }
+    },
+    "gc-k-gbl-portals-pro": {
+      "hosting": {
+        "pro_target": ["billpocket-pro"]
+      }
+    }
+  }
+}

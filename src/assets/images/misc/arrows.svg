@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="31px" viewBox="0 0 32 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow_back</title>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Inicio---MB-sin-KYC" transform="translate(-45.000000, -367.000000)">
+            <g id="Group-5" transform="translate(25.000000, 347.000000)">
+                <g id="Outlined-/-Navigation-/-arrow_back" transform="translate(20.000000, 20.240000)">
+                    <polygon id="Path" points="0 0 32 0 32 29.44 0 29.44"></polygon>
+                    <path d="M20.7995452,13.616 L27.3333333,19.688 L20.7995452,25.76 L19.4741196,24.5369257 L23.7584178,20.5554286 L13.301396,20.5554286 L13.301396,18.8205714 L23.7584178,18.8205714 L19.4834535,14.8390743 L20.7995452,13.616 Z M11.2004548,3.68 L12.5258804,4.90307429 L8.2415822,8.88457143 L18.7861519,8.88457143 L18.7861519,10.6194286 L8.2415822,10.6194286 L12.5165465,14.6009257 L11.2004548,15.824 L4.66666667,9.752 L11.2004548,3.68 Z" id="Combined-Shape" fill="#1D1D1D"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

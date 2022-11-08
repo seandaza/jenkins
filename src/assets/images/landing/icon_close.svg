@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="27px" height="28px" viewbox="0 0 27 28" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group-2">
+    <path d="M13.392 25.92C6.714 25.92 1.296 20.4101 1.296 13.608C1.296 6.80585 6.714 1.296 13.392 1.296C20.07 1.296 25.488 6.80585 25.488 13.608C25.488 20.4101 20.07 25.92 13.392 25.92L13.392 25.92ZM13.392 27.216C20.7907 27.216 26.784 21.1211 26.784 13.608C26.784 6.09492 20.7907 0 13.392 0C5.99332 0 0 6.09492 0 13.608C0 21.1211 5.99332 27.216 13.392 27.216L13.392 27.216Z" id="Shape" fill="#545C67" stroke="none" />
+    <path d="M0 0.91641L10.368 11.2844L11.2844 10.368L0.91641 0L0 0.91641L0 0.91641Z" transform="translate(7.75 7.9658203)" id="Path" fill="#545C67" fill-rule="evenodd" stroke="none" />
+    <path d="M0.91641 11.2844L11.2844 0.91641L10.368 0L0 10.368L0.91641 11.2844L0.91641 11.2844Z" transform="translate(7.75 7.9658203)" id="Path" fill="#545C67" fill-rule="evenodd" stroke="none" />
+  </g>
+</svg>
