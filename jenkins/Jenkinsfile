@@ -8,7 +8,7 @@ pipeline {
     }
     environment { 
         CI = 'true'
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('SIDER QA') 
+        GOOGLE_APPLICATION_CREDENTIALS = credentials('firebase-deploy-token') 
     }
     stages {
         stage('deploy') {
