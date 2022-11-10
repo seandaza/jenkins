@@ -1,19 +1,34 @@
-
 pipeline {
     agent {
         docker {
-            image 'node:14.18.2'
+            image 'node:8-alpine'
             args '-p 3000:3000'
         }
     }
     environment { 
         CI = 'true'
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('firebase-deploy-token') 
+        FIREBASE_DEPLOY_TOKEN = credentials('firebase-deploy-token') 
     }
     stages {
-        stage('deploy') {
+        stage('Build') {
             steps {
-                sh './jenkins/scripts/staging.sh'
+                sh 'npm install'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh './jenkins/scripts/test.sh'
+            }
+        }
+        stage('Staging') { 
+            steps {
+                sh './jenkins/scripts/staging.sh' 
+                input message: 'Finished using the Staging version of the Web App? (Click "Proceed" to continue)' 
+            }
+        }
+        stage('Production') { 
+            steps {
+                sh './jenkins/scripts/production.sh' 
             }
         }
     }
